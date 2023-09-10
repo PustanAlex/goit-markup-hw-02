@@ -14,12 +14,43 @@ a{
     text-decoration: none;
 }
 
+a:visited {
+    color: #800080;
+}
+
+a:hover {
+    color: #2196F3 ;
+}
+
 body a:active { 
     color: #ff0000;
 }
 
 button {
     cursor: pointer;
+    background-color: #F5F4FA;
+    border: none;
+    color: var(--main-color);
+    font-family: var(--body-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2 2 0 #000000;
+}
+
+button:hover {
+    background-color: #2196F3 ;
+    color: #fff;
+}
+
+button:visited {
+    color: #800080;
+}
+
+button:active {
+    color: red;
 }
 
 p {
@@ -80,7 +111,8 @@ nav a{
     color: #2196F3;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
-    line-height: 30.52px;
+    line-height: 35.96px;
+    font-weight: 700;
 }
 
 .studio-word {
@@ -122,6 +154,11 @@ main h1 {
     box-shadow: 0 4 4 0 #000000 15%;
 }
 
+.main-button:hover {
+    background-color: #fff;
+    color:#2196F3;
+}
+
 .what-we-do {
     text-align: center;
 }
@@ -157,31 +194,9 @@ footer p {
     color: #fff;
     opacity: 60%;
 }
-a:hover {
-    color: #2196F3 ;
-}
 
 
         /* PORTOFOLIO */
-
-
-button {
-    background-color: #F5F4FA;
-    border: none;
-    color: var(--main-color);
-    font-family: var(--body-font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 2 2 0 #000000;
-}
-
-button:hover {
-    background-color: #2196F3 ;
-    color: #fff;
-}
 
 .portofolio .image-heading {
     font-size: 18px;
