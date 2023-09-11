@@ -18,12 +18,9 @@ a:visited {
     color: #800080;
 }
 
-a:hover {
-    color: #2196F3 ;
-}
 
 body a:active { 
-    color: #ff0000;
+    color: #2196F3;
 }
 
 button {
@@ -40,17 +37,14 @@ button {
     box-shadow: 0 2 2 0 #000000;
 }
 
-button:hover {
-    background-color: #2196F3 ;
-    color: #fff;
-}
 
 button:visited {
     color: #800080;
 }
 
-button:active {
-    color: red;
+button:focus {
+    background-color: #2196F3;
+    color: #fff;
 }
 
 p {
@@ -99,6 +93,10 @@ header nav, .nav-contacts{
     line-height: 18.75px;
 }
 
+.nav-link:active {
+    color: #2196F3;
+}
+
 nav a{
     color: var(--main-color)
 }
@@ -106,6 +104,10 @@ nav a{
 .nav-contacts a{
     color: #757575
 } 
+
+.nav-contacts a:hover {
+    color: #2196F3;
+}
 
 .web-word {
     color: #2196F3;
@@ -152,12 +154,14 @@ main h1 {
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 4 4 0 #000000 15%;
+    margin-left: 45%;
 }
 
 .main-button:hover {
-    background-color: #fff;
-    color:#2196F3;
+    background-color: #188CE8;
+    color:#fff;
 }
+
 
 .what-we-do {
     text-align: center;
