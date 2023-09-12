@@ -97,6 +97,10 @@ header nav, .nav-contacts{
     color: #2196F3;
 }
 
+.current {
+    color: var(--main-color);
+}
+
 nav a{
     color: var(--main-color)
 }
@@ -133,6 +137,7 @@ footer .studio-word {
         /* MAIN */
 .web-main {
     background-color: #2F303A;
+    text-align: center;
 }
 
 main h1 {
@@ -154,13 +159,13 @@ main h1 {
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 4 4 0 #000000 15%;
-    margin-left: 45%;
 }
 
 .main-button:hover {
     background-color: #188CE8;
     color:#fff;
 }
+
 
 
 .what-we-do {
