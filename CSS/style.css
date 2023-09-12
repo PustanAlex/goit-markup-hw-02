@@ -14,14 +14,6 @@ a{
     text-decoration: none;
 }
 
-a:visited {
-    color: #800080;
-}
-
-
-body a:active { 
-    color: #2196F3;
-}
 
 button {
     cursor: pointer;
@@ -38,9 +30,6 @@ button {
 }
 
 
-button:visited {
-    color: #800080;
-}
 
 button:focus {
     background-color: #2196F3;
@@ -93,16 +82,12 @@ header nav, .nav-contacts{
     line-height: 18.75px;
 }
 
-.nav-link:active {
-    color: #2196F3;
-}
-
-.current {
-    color: var(--main-color);
+.navigation-link-current {
+    color:#2196F3 ;
 }
 
 nav a{
-    color: var(--main-color)
+    color:var(--main-color);
 }
 
 .nav-contacts a{
